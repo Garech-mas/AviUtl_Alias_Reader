@@ -1,5 +1,5 @@
 # Aviutl_Alias_Reader
-AviUtlのエイリアス・オブジェクトファイルをテキストから読み込めるようにする、ごちゃまぜドロップス用スクリプトです。
+AviUtlのEXO読み込みをちょっと便利にする、ごちゃまぜドロップス用スクリプトです。
 
 ## インストール方法
 [ごちゃまぜドロップス](https://github.com/oov/aviutl_gcmzdrops/releases/latest) の最新版をインストールしてください。
@@ -11,9 +11,10 @@ AviUtlのエイリアス・オブジェクトファイルをテキストから�
 
 
 ## 仕様
+- FPS値が異なるEXOを読み込んだとき、各オブジェクトの長さを調整して読み込めるようになります。
 - [exedit] で始まるテキストはオブジェクトファイル(.exo)として追加します。
 - [v][vo][a][ao] などで始まるテキストはエイリアス(.exa)として追加します。
 
-## 要するに
-  [字幕アシストプラグイン](https://aoytsk.blog.jp/aviutl/1412254.html)のごちゃまぜドロップス移植版です。
-
+## 参考
+- [字幕アシストプラグイン](https://aoytsk.blog.jp/aviutl/1412254.html)
+- [EXOファイルFPS変換機](https://yachiovithe.wixsite.com/creation-cms/post/exofile_fps_converter)
