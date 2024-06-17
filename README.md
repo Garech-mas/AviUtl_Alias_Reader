@@ -1,4 +1,4 @@
-# Aviutl_Alias_Reader
+# AviUtl_Alias_Reader
 AviUtlのEXO読み込みをちょっと便利にする、ごちゃまぜドロップス用スクリプトです。
 
 ## インストール方法
